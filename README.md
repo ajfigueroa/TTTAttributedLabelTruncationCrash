@@ -1,4 +1,4 @@
-This is my project meant to help reproduce the issues seen in [TTTAttributedLaebl Issue #616](https://github.com/TTTAttributedLabel/TTTAttributedLabel/issues/616)
+This is my project meant to help reproduce the issues seen in [TTTAttributedLabel Issue #616](https://github.com/TTTAttributedLabel/TTTAttributedLabel/issues/616)
 
 This issue happens when the line at `numberOfLines - 1` is a new line character as follows:
 ```
