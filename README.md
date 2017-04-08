@@ -1,3 +1,12 @@
+
+# Setup
+
+1. Clone or download this repo
+2. Navigate to where you have this project saved and run `pod install`
+3. Open `TTTruncationCrash.xcworkspace` and you're good to go 🚀. However, the app will crash right away due to the problem below.
+
+# Problem
+
 This is my project meant to help reproduce the issues seen in [TTTAttributedLabel Issue #616](https://github.com/TTTAttributedLabel/TTTAttributedLabel/issues/616)
 
 This issue happens when the line at `numberOfLines - 1` is a new line character as follows:
